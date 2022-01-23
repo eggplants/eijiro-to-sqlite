@@ -1,6 +1,6 @@
 # eijiro-to-sqlite
 
-英辞郎 Ver.144.8 ( https://booth.pm/ja/items/777563 ) -> sqlite3
+[英辞郎 Ver.144.8](https://booth.pm/ja/items/777563) -> sqlite3
 
 ## Screenshot
 
