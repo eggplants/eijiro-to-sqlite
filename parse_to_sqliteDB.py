@@ -1,6 +1,6 @@
+import re
 import sqlite3
 from os import path
-import re
 
 DB_FILE = "eijiro.db"
 SOURCE_FILE = "EIJIRO-1448.TXT"
