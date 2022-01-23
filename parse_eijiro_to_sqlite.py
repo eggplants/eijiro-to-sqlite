@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 import sqlite3
 from os import path
