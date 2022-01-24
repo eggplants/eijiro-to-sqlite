@@ -1,5 +1,24 @@
 # eijiro-to-sqlite
 
+[![PyPI version](
+  https://badge.fury.io/py/e2s.svg)](
+  https://badge.fury.io/py/e2s
+) [![Maintainability](
+  https://api.codeclimate.com/v1/badges/ba54d622e0a91a567bb1/maintainability)](
+  https://codeclimate.com/github/eggplants/eijiro-to-sqlite/maintainability
+)
+
+[![Style Check](
+  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/style-check.yml/badge.svg)](
+  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/style-check.yml
+) [![Release Package](
+  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/release.yml/badge.svg)](
+  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/release.yml) [
+![black](
+  https://img.shields.io/badge/code%20style-black-000000.svg)](
+  https://github.com/psf/black
+)
+
 - [英辞郎 Ver.144.8](https://booth.pm/ja/items/777563) -> sqlite3
   - [Sample data](http://www.eijiro.jp/eijiro-sample-1448.zip): 0 JPY
   - [英辞郎 Ver.144.8](https://booth.pm/ja/items/777563): 495 JPY
