@@ -1,16 +1,43 @@
 # eijiro-to-sqlite
 
-[英辞郎 Ver.144.8](https://booth.pm/ja/items/777563) -> sqlite3
+- [英辞郎 Ver.144.8](https://booth.pm/ja/items/777563) -> sqlite3
+  - [Sample data](http://www.eijiro.jp/eijiro-sample-1448.zip): 0 JPY
+  - [英辞郎 Ver.144.8](https://booth.pm/ja/items/777563): 495 JPY
 
 ## Screenshot
 
 ![img](https://user-images.githubusercontent.com/42153744/150694352-5f0af040-a79b-4e12-bd21-40ed67068a57.png)
 
 
+## Install
+
+```bash
+pip install e2s
+```
+
 ## Run
 
 ```bash
-python parse_eijiro_to_sqlite.py
+wget 'https://www.eijiro.jp/eijiro-sample-1448.zip' # sample data
+unzip eijiro-sample-1448.zip
+e2s -i EIJIRO-SAMPLE-1448.TXT # `eijiro.db` will be created
+```
+
+## Help
+
+```shellsession
+$ e2s -h
+usage: e2s [-h] [-i TXT] [-o DB] [-j JOINER] [-O] [-V]
+
+Convert eijiro(英辞郎) text data into sqlite3
+
+optional arguments:
+  -h, --help                  show this help message and exit
+  -i TXT, --input TXT         Source file (default: EIJIRO-1448.TXT)
+  -o DB, --out DB             Output DB file (default: eijiro.db)
+  -j JOINER, --joiner JOINER  Save just target webpage(s). (default: ^^^)
+  -O, --overwrite             Overwrite db (default: False)
+  -V, --version               show program's version number and exit
 ```
 
 ## Schema
