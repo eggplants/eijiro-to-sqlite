@@ -2,7 +2,7 @@
 
 [![PyPI version](
   https://badge.fury.io/py/e2s.svg)](
-  https://badge.fury.io/py/e2s
+  https://pypi.org/project/e2s/
 ) [![Maintainability](
   https://api.codeclimate.com/v1/badges/ba54d622e0a91a567bb1/maintainability)](
   https://codeclimate.com/github/eggplants/eijiro-to-sqlite/maintainability
