@@ -19,7 +19,7 @@
   https://github.com/psf/black
 )
 
-- [英辞郎 Ver.144.8](https://booth.pm/ja/items/777563) -> sqlite3
+- [英辞郎](https://booth.pm/ja/items/777563) -> sqlite3
   - [Sample data](http://www.eijiro.jp/eijiro-sample-1448.zip): 0 JPY
   - [英辞郎 Ver.144.8](https://booth.pm/ja/items/777563): 495 JPY
 
