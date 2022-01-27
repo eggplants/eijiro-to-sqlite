@@ -54,7 +54,7 @@ optional arguments:
   -h, --help                  show this help message and exit
   -i TXT, --input TXT         Source file (default: EIJIRO-1448.TXT)
   -o DB, --out DB             Output DB file (default: eijiro.db)
-  -j JOINER, --joiner JOINER  Save just target webpage(s). (default: ^^^)
+  -j JOINER, --joiner JOINER  Joiner for descriptions (default: ^^^)
   -O, --overwrite             Overwrite db (default: False)
   -V, --version               show program's version number and exit
 ```
