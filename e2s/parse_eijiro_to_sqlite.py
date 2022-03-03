@@ -85,7 +85,7 @@ def parse_args() -> argparse.Namespace:
         help="Output DB file",
     )
     parser.add_argument(
-        "-j", "--joiner", type=str, default="^^^", help="Save just target webpage(s)."
+        "-j", "--joiner", type=str, default="^^^", help="Joiner for descriptions"
     )
     parser.add_argument(
         "-O",
