@@ -1,22 +1,17 @@
 # eijiro-to-sqlite
 
-[![PyPI version](
-  https://badge.fury.io/py/e2s.svg)](
-  https://pypi.org/project/e2s/
-) [![Maintainability](
-  https://api.codeclimate.com/v1/badges/ba54d622e0a91a567bb1/maintainability)](
-  https://codeclimate.com/github/eggplants/eijiro-to-sqlite/maintainability
-)
-
-[![Style Check](
-  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/style-check.yml/badge.svg)](
-  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/style-check.yml
+[![PyPI](
+  <https://img.shields.io/pypi/v/e2s?color=blue>
+  )](
+  <https://pypi.org/project/e2s/>
 ) [![Release Package](
-  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/release.yml/badge.svg)](
-  https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/release.yml) [
-![black](
-  https://img.shields.io/badge/code%20style-black-000000.svg)](
-  https://github.com/psf/black
+  <https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/release.yml/badge.svg>
+  )](
+  <https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/release.yml>
+) [![CI](
+  <https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/ci.yml/badge.svg>
+  )](
+  <https://github.com/eggplants/eijiro-to-sqlite/actions/workflows/ci.yml>
 )
 
 - [英辞郎](https://booth.pm/ja/items/777563) -> sqlite3
