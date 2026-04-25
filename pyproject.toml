@@ -7,7 +7,7 @@ name = "e2s"
 description = "Convert eijiro text data into sqlite3"
 readme = "README.md"
 keywords = [ "dictionary", "eijiro", "sqlite" ]
-license = { text = "MIT" }
+license = "MIT"
 authors = [ { name = "eggplants", email = "w10776e8w@yahoo.co.jp" } ]
 requires-python = ">=3.10,<4"
 classifiers = [
@@ -22,8 +22,7 @@ classifiers = [
   "Typing :: Typed",
 ]
 dynamic = [ "version" ]
-dependencies = [  ]
-
+dependencies = []
 urls.repository = "https://github.com/eggplants/eijiro-to-sqlite"
 scripts.e2s = "e2s.main:main"
 
@@ -39,22 +38,19 @@ docs = [
   "pdoc>=16",
 ]
 
-[tool.hatch.version]
-source = "uv-dynamic-versioning"
-
-[tool.hatch.build.targets.sdist]
-include = [ "e2s" ]
-
-[tool.hatch.build.targets.wheel]
-include = [ "e2s" ]
+[tool.hatch]
+build.targets.sdist.include = [ "e2s" ]
+build.targets.wheel.include = [ "e2s" ]
+version.source = "uv-dynamic-versioning"
 
 [tool.uv]
-preview = true
+python-downloads = "never"
 default-groups = [
   "dev",
   "docs",
 ]
 exclude-newer = "P7D"
+preview = true
 
 [tool.ruff]
 line-length = 120
