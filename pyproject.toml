@@ -39,9 +39,9 @@ docs = [
 ]
 
 [tool.hatch]
-build.targets.sdist.include = [ "e2s" ]
-build.targets.wheel.include = [ "e2s" ]
 version.source = "uv-dynamic-versioning"
+build.targets.wheel.include = [ "e2s" ]
+build.targets.sdist.include = [ "e2s" ]
 
 [tool.uv]
 python-downloads = "never"
