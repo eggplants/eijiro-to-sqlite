@@ -44,7 +44,7 @@ dependencies = []
 urls.Documentation = "https://egpl.dev/eijiro-to-sqlite/"
 urls.Issues = "https://github.com/eggplants/eijiro-to-sqlite/issues"
 urls.Repository = "https://github.com/eggplants/eijiro-to-sqlite"
-scripts.e2s = "e2s.main:main"
+scripts.e2s = "e2s.cli:main"
 
 [dependency-groups]
 dev = [

@@ -5,7 +5,7 @@ from unittest.mock import patch
 import pytest
 
 from e2s import __version__
-from e2s.main import main, parse, parse_args
+from e2s.cli import main, parse, parse_args
 
 
 def test_version() -> None:
